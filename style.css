@@ -1,0 +1,179 @@
+
+@font-face {
+  font-family: 'Anurarti';
+  src: url("Anurati-Regular.otf") format("opentype");
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'DIN Pro';
+    padding: 0;
+    margin :0;
+    background-color: white;
+}
+.navbar{
+    z-index: 1000;
+    height: 70px;
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1 15;
+}
+.item{
+    color: black !important;
+    
+    font-size: 25px;
+    padding-top: 20px;
+    height: 100%;
+     width: 150px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+h1{
+font-family: 'DIN Pro';
+}
+.slide{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-color: #5323f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide.s2{
+    background-image: url("Images/2.png");
+}
+
+.slide.s1{
+    background-attachment: initial !important;
+    background-image: url("Images/1.png");
+}
+.slide.s3{
+    background-image: url("Images/3.png");
+}
+.slide.s4{
+    background-image: url("Images/4.png");
+}
+
+.slide.s5{
+    background-image: url("Images/5.png");
+}
+.slide.s6{
+    background-image: url("Images/6.png");
+}
+.slide.s10{
+    background-attachment: unset !important;
+    background-image: url("Images/About.png");
+}
+.slide.s11{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80%;   
+    width:calc(100% - 20%);
+    background-color: white;   
+     color:#686872;
+}
+.roller{
+    margin-left: 200px;
+    transform: rotate(30deg) translateX(-800px);
+    background-color: #5323f5;
+    max-width: 80%;
+   max-height: 200%;
+    min-width: 80%;
+   min-height: 200%;
+}
+.roller.s{
+    background-color: #18181C;
+}
+.roller2{
+    margin-left: 200px;
+    transform: rotate(-30deg) translateX(-467px) translateY(-290px);
+    background-color: #18181C;
+    max-width: 80%;
+   max-height: 200%;
+    min-width: 80%;
+   min-height: 200%;
+}
+
+.area{
+    font-family: 'DIN Pro';
+    color: white;
+    font-weight: 400;
+    width: 500px;
+     font-size: 80px;
+    margin-left: 10px; 
+    transform: rotate(-30deg) translateX(1000px) translateY(650px);
+    
+}
+.txt{
+    color: white;
+    font-family: 'Anurarti';
+     font-size: 80px;
+    margin-left: 10px; 
+    transform: rotate(-30deg) translateX(300px) translateY(500px);
+    
+}
+.txt.a{
+    color: white;
+    font-family: 'Anurarti';
+     font-size: 80px;
+    margin-left: 10px; 
+    transform: rotate(30deg) translateX(1000px) translateY(0px);
+    
+}
+.area.a{
+    font-family: 'DIN Pro';
+    color: white;
+    font-weight: 400;
+    width: 500px;
+     font-size: 2000px;
+    margin-left: 10px; 
+    transform: rotate(30deg) translateX(700px) translateY(-10px);
+    
+}
+p{
+    margin: 0;
+    margin-left: 50px;
+    font-size: 40px;
+}
+p.c{
+    font-weight: 200;
+    padding-top: 10px;
+    padding-right: 45px;
+    text-align: right;
+    font-size: 20px;
+}
+p.d{
+    font-family: 'DIN Pro';
+    padding:0;
+    margin:0;
+    padding-top: 10px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+.box{
+    margin-left: 50px;
+    width: 300px;
+    padding: 10px 10px 10 100;
+    border: white 2px solid;
+    background-color: rgba(0,0,0,0.7)
+}
+t{
+    font-family: 'DIN Pro Cond';
+    font-size: 80;
+}
+h1.head{
+    font-size: 100;
+    font-family: 'DIN Pro Cond';
+    margin-top: calc(25% - 1em);
+    font-weight: 400;
+}

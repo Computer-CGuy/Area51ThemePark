@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.block{
+    margin: 0;
+    padding:0;
+    display: inline-block;
+    width: calc(50% - 0px);
+    height: 100%;
+    vertical-align: top;
+}
+.block.one{
+    
+    width: 30%;
+    background-color: #18171c;
+}
+.block.two{
+    position: relative;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #040308;
+    background-image: url("map.png");
+    width: 70%;
+}
+.img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url("snap.gif");
+}
+log{
+    content:"";
+    display: table;
+    clear: both;
+}
+h2,h1{
+    padding: 0;
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 20px;
+    color: #F6F6F6;
+    font-size: 30px;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 24px !important;
+}
+.ico{
+    background: url("gp.ico");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid #6d63ff 6px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #5222f4;
+}
+.ico.show{
+    background-image: url("OnlyIcon/Show.png");
+}
+.ico.shop{
+    background-image: url("OnlyIcon/Shop.png");
+}
+.ico.ride{
+    background-image: url("OnlyIcon/Rides.png");
+}
+
+.ico.games{
+    background-image: url("OnlyIcon/Games.png");
+}
+
+.ico.food{
+    background-image: url("OnlyIcon/Food.png");
+}
+.ol{
+    vertical-align: top;
+    display: inline-block;
+    
+}
+.box{
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+.place{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    
+    min-height: 70px;
+   transform: scale(0.8);
+}
+.place:hover{
+   transform: scale(1);
+    color: #F6F6F6 !important;
+}
+.icon{
+     background-color: rgb(200,200,210);
+    border: solid #F6F6F6 6px;
+    color: grey;
+}
+.place:hover h2{
+    font-weight: 900;
+    color: #6d63ff !important;
+}
+.place:hover .ico{
+    cursor:pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid #6d63ff 6px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #5222f4;
+}
+.place.pochinki{
+    top: 420px;
+    left: 380px;
+}
+.place.georgopool{
+    
+    top: 280px;
+    left: 300px;
+}
+.place.show .ico{
+    background-image: url("OnlyIcon/Show.png");
+}
+.place.shop .ico{
+    background-image: url("OnlyIcon/Shop.png");
+}
+.place.ride .ico{
+    background-image: url("OnlyIcon/Rides.png");
+}
+
+.place.games .ico{
+    background-image: url("OnlyIcon/Games.png");
+}
+
+.place.food .ico{
+    background-image: url("OnlyIcon/Food.png");
+}
+.scroll{
+    height: calc(100% - 220px);
+    overflow-y: scroll;
+}
+t{
+    font-size: 20px;
+}
+c{
+    font-size: 15px;
+}

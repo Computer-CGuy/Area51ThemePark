@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'DIN Pro';
+    src: url("DINPro-Medium.otf") format("opentype"); 
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url("DINPro-Light.otf") format("opentype"); 
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url("DINPro-Cond.otf") format("opentype"); 
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url("DINPro-CondLight.otf") format("opentype"); 
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url("DINPro-CondBold.otf") format("opentype"); 
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url("DINPro-CondMedium.otf") format("opentype"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url("DINPro.otf") format("opentype"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
