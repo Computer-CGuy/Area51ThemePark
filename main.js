@@ -4,7 +4,6 @@ $(document).ready(function(){
 $(window).scroll(function(){
     var wScroll = $(window).scrollTop();
     height= $('.slide').height();
-    $('.box').css('transform','translateY(-'+wScroll/1+'px)')
     $('p.c').css('transform','translateY(-'+wScroll/1+'px)')	
     $('.navbar').css('background-color','rgba(255,255,255,'+wScroll/height+')');
     
