@@ -109,7 +109,7 @@ font-family: 'DIN Pro';
     width: 500px;
      font-size: 80px;
     margin-left: 10px; 
-    transform: rotate(-30deg) translateX(1000px) translateY(650px);
+    transform: rotate(-30deg) translateX(1000px) translateY(380%);
     
 }
 .txt{
