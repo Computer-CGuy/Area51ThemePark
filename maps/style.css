@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #F7F7F7;
+    background-color: black;
     font-family: Roboto, sans-serif;
     
 }
@@ -15,8 +15,8 @@ body{
     vertical-align: top;
 }
 .block.one{
-    
-    width: 30%;
+    height: 100%;
+    width: 409.797px;
     background-color: #18171c;
 }
 .block.two{
@@ -26,7 +26,8 @@ body{
     background-repeat: no-repeat;
     background-color: #040308;
     background-image: url("map.png");
-    width: 70%;
+    width: 956.188px;
+    height: 614px;
 }
 .img{
     background-repeat: no-repeat;
