@@ -94,7 +94,7 @@ font-family: 'DIN Pro';
 }
 .roller2{
     margin-left: 200px;
-    transform: rotate(-30deg) translateX(-48%) translateY(-30%);
+    transform: rotate(-30deg) translateX(-48%) translateY(-22%);
     background-color: #18181C;
     max-width: 80%;
    max-height: 200%;
